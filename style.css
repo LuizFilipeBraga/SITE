@@ -54,24 +54,41 @@ main > article{
 }
 section#texto{
     position: relative;
-    top: -250px;
-    left: 200px;
+    top: -100px;
+    left: 230px;
 
-    min-width: 280px;
-    max-width: 55%;
-    margin: auto;
+    min-width: 100px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: 260px;
+
 }
-iframe#foto{
+main > img{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    
+    margin-left: 20px;
+    margin-right: 0px;
+    max-width: 150px;
+    width: auto;
+
+    border-radius: 20%;
+    display: block;
+}
+/*
+section#foto{
     position: relative;
     top: 30px;
     left: 30px;
 
-    width: 30%;
+    max-width: 150px;
+    width: 100px;
     height: 312px;
 
     border-radius: 10%;
 }
-
+*/
 footer{
     margin: auto;
     height: 20%;

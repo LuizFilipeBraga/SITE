@@ -22,7 +22,7 @@ header > h1{
 }
 nav#links img{
     width: 40px;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-bottom: 20px;
     box-sizing: border-box;
 }
@@ -36,23 +36,31 @@ nav#links img:hover{
 
 .Flexbox-container{
     background-color: white;
-    max-width: 800px;
+    max-width: 80%;
+    min-width: 250px;
+
+    width: 100%;
+    height: auto;
     margin: auto;  
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 .Flexbox{
-    width: 100%;
-    border-radius: 15px;
-    
+    width: 290px;
+    height: 60%;
     margin-top: 20px;
-    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+
+    border-radius: 15px;/*imagem*/
+
+    display: flex;
 }
 .Flexbox img{
-    width: 200px;
-    height: auto;
+    width: 220px;
 }
 
 footer{

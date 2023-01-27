@@ -33,18 +33,18 @@ nav#links img:hover{
     transition: transform 1s;
 }
 
+
 .Flexbox-container{
     background-color: white;
     max-width: 800px;
-    min-width: 280px;   
+    margin: auto;  
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
 }
 .Flexbox{
-    width: 200px;
-    height: 320px;
+    width: 100%;
     border-radius: 15px;
     
     margin-top: 20px;

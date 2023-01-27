@@ -33,62 +33,24 @@ nav#links img:hover{
     transition: transform 1s;
 }
 
-main{
+.Flexbox-container{
     background-color: white;
-    border-radius: 10px;
+    max-width: 800px;
+    min-width: 280px;   
 
-    margin: auto;
-    min-width: 280px;
-    max-width: 1000px;
-
-    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-main > article{
-    display: inline-block;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-
-    position: relative;
-    top: 50px;
-    margin: auto;
-}
-section#texto{
-    position: relative;
-    top: -100px;
-    left: 230px;
-
-    min-width: 100px;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: 260px;
-
-}
-main > img{
-    position: relative;
-    top: 70px;
-    left: 30px;
+.Flexbox{
+    width: 200px;
+    height: 320px;
+    border-radius: 15px;
     
-    margin-left: 20px;
-    margin-right: 0px;
-    max-width: 150px;
-    width: auto;
-
-    border-radius: 20%;
-    display: block;
+    margin-top: 20px;
+    margin-left: 0px;
 }
-/*
-section#foto{
-    position: relative;
-    top: 30px;
-    left: 30px;
 
-    max-width: 150px;
-    width: 100px;
-    height: 312px;
-
-    border-radius: 10%;
-}
-*/
 footer{
     margin: auto;
     height: 20%;

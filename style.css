@@ -50,6 +50,10 @@ nav#links img:hover{
     margin-top: 20px;
     margin-left: 0px;
 }
+.Flexbox img{
+    width: 200px;
+    height: auto;
+}
 
 footer{
     margin: auto;

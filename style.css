@@ -1,30 +1,78 @@
-.flexbox-container {
+
+:root{
+    --cor01: #5a7f78;
+    --cor02: #e2e3d9;
+}
+
+body{
+    background-color: var(--cor02);
+}
+
+header{
+    background-color: var(--cor01);
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    height: 20%;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+nav#links img{
+    width: 40px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+nav#links img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.616);
+    transform: translate(-20px -20px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 1s;
+}
+
+
+.Flexbox-container{
     background-color: white;
     max-width: 1000px;
     min-width: 250px;
+
     width: 100%;
     height: auto;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    margin: auto;  
 
-.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Flexbox{
     width: 290px;
     height: 60%;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
+    margin-left: 20px;
+
+    border-radius: 15px;/*imagem*/
+
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+.Flexbox img{
+    width: 220px;
 }
 
-.flexbox img {
-    width: 220px;
-    margin-bottom: 20px;
+footer{
+    margin: auto;
+    height: 20%;
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: var(--cor01);
+}
+footer > p{
+    margin: auto;
+    height: 20%;
 }
